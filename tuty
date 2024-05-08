@@ -1,0 +1,7 @@
+    return this.dname ;
+}
+public String getLoc () {
+    return this.loc ;
+}
+}
+ public class JavaDemo {  
