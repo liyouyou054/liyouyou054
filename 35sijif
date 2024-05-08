@@ -1,0 +1,7 @@
+public void setLoc (String loc) {
+    this.loc = loc ;
+}
+public long getDeptno() {
+    return this.deptno ;
+}
+public String getDname() {
