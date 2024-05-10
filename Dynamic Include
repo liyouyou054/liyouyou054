@@ -1,0 +1,3 @@
+<jsp:include page="menu.jsp">
+       <jsp:param name="section" value="main" />
+   </jsp:include>
