@@ -1,0 +1,16 @@
+     */
+    public static int getElement(int[] arr,int index){ 
+        if(arr == null){
+            /*
+              */
+            throw new NullPointerException("");
+        }
+        if(index<0 || index>arr.length-1){
+             /*
+              */
+             throw new ArrayIndexOutOfBoundsException("~~~");
+        }
+        int element = arr[index];
+        return element;
+    }
+}
