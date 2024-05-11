@@ -1,0 +1,9 @@
+public class TestException {
+  public static void main(String[] args)  {
+    try {
+      readFile("Java.txt");
+    } catch (FileNotFoundException e) {
+//      e.printStackTrace();
+//      System.out.println
+      System.out.println(e.getMessage());
+    } 
