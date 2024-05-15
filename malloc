@@ -1,0 +1,5 @@
+{
+	p_MP = (NODE*)malloc(sizeof(NODE));
+	p_MP->x = WINDOW_WIDTH / 2 - pw / 2;
+	p_MP->y = WINDOW_HEIGHT-100;
+	p_MP->pnext = NULL;
