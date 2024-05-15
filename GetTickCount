@@ -1,0 +1,3 @@
+	p_bullet = (NODE*)malloc(sizeof(NODE));
+	p_bullet->pnext = NULL;
+	b1 = GetTickCount();
