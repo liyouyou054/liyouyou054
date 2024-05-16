@@ -1,0 +1,9 @@
+			*find = '\0';
+		else
+		while (getchar() != '\n')
+			continue;
+	}
+
+	return ret_val;
+}
+void frees(snake *s)
